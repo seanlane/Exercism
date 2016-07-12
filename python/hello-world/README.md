@@ -30,13 +30,13 @@ It will also provide you with a safety net to explore other solutions without br
 2. Write some code to fix the test you picked.
 3. Re-run the tests to confirm the test is now passing.
 4. Repeat from step 1.
-5. [Submit your solution](http://help.exercism.io/submitting-exercises.html).
+5. Submit your solution (`exercism submit /path/to/file`)
 
 ## Instructions
 
 Submissions are encouraged to be general, within reason. Having said that, it's also important not to over-engineer a solution.
 
-It's important to remember that the goal is to make code as expressive and readable as we can. However, solutions to the hello-world exercise will be not be reviewed by a person, but by rikki- the robot, who will offer an encouraging word.
+It's important to remember that the goal is to make code as expressive and readable as we can. However, solutions to the hello-world exercise will not be reviewed by a person, but by rikki- the robot, who will offer an encouraging word.
 
 ### Submitting Exercises
 
@@ -44,6 +44,10 @@ Note that, when trying to submit an exercise, make sure the solution is in the `
 
 For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
 
+
+For more detailed information about running tests, code style and linting,
+please see the [help page](http://exercism.io/languages/python).
+
 ## Source
 
-This is a program to introduce users to using Exercism [view source](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+This is a program to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)

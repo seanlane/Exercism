@@ -12,33 +12,22 @@ rescue LoadError => e
   exit 1
 end
 
+# Test data version:
+# deb225e Implement canonical dataset for scrabble-score problem (#255)
+
 class HelloWorldTest < Minitest::Test
   def test_no_name
-    assert_equal 'Hello, World!', HelloWorld.hello, <<-MSG
-    When given no name, it should greet the world!
-    MSG
+    assert_equal 'Hello, World!', HelloWorld.hello
   end
 
   def test_sample_name
     skip
-    assert_equal 'Hello, Alice!', HelloWorld.hello('Alice'), <<-MSG
-    When given "Alice" it should greet Alice!
-    MSG
+    assert_equal 'Hello, Alice!', HelloWorld.hello('Alice')
   end
 
   def test_other_sample_name
     skip
-    assert_equal 'Hello, Bob!', HelloWorld.hello('Bob'), <<-MSG
-    When given "Bob" it should greet Bob!
-    MSG
-  end
-
-  def test_no_strange_name
-    skip
-    assert_equal 'Hello, !', HelloWorld.hello(''), <<-MSG
-    When given an empty string it should have a space
-    and punctuation, though admittedly this is strange.
-    MSG
+    assert_equal 'Hello, Bob!', HelloWorld.hello('Bob')
   end
 end
 

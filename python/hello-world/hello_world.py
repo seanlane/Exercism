@@ -4,4 +4,7 @@
 
 
 def hello(name=''):
-    return "Hello, World!" if name == '' else "Hello, %s!" % name
+	if name is '':
+		return "Hello, World!"
+	else:
+		return "Hello, %s!" % name
